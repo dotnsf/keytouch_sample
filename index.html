@@ -30,10 +30,10 @@ html, body{
 <script>
 window.onload = function(){
   document.body.onkeydown = function( e ){
-    document.getElementById('letter').innerHTML( '' );
+    document.getElementById('letter').innerHTML = '';
     var keycode = e.keyCode;
     var c = String.fromCharCode( keycode );
-    document.getElementById('letter').innerHTML( c );
+    document.getElementById('letter').innerHTML = c;
   };
 };
 </script>
